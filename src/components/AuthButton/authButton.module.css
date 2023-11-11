@@ -1,0 +1,16 @@
+.wrapper {
+  padding: 17.829px 26.743px;
+  font-size: 17.829px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-radius: 17.829px;
+}
+
+.signin {
+  background-color: transparent;
+  color: var(--text-light-color);
+}
+.signup {
+  background-color: var(--primary-color);
+  color: white;
+}

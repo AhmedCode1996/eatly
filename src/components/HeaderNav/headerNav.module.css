@@ -1,0 +1,17 @@
+.wrapper {
+}
+
+.wrapper ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.wrapper ul li {
+}
+.wrapper ul li a {
+  color: var(--text-light-color);
+  font-weight: 500;
+  font-size: 17.829px;
+  text-transform: capitalize;
+}

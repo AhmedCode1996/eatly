@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+
+/* .wrapper .logoImage {
+} */
+.wrapper .logoText {
+  font-family: var(--font-poppins);
+  color: var(--primary-color);
+  font-size: var(--h5);
+  font-weight: 600;
+}
