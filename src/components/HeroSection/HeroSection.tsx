@@ -33,16 +33,51 @@ function HeroSection() {
             </div>
             <div className={styles.reviews}>
               <Image
-                src={"/trustpilot.png"}
-                alt="trustpilot"
-                width={20}
+                src={"/hero/trustpilot.png"}
+                alt="trustpilot icon"
+                width={150}
                 height={20}
               />
-              <Image src={"/stars.png"} alt="star" width={20} height={20} />
+              <Image
+                src={"/hero/stars.png"}
+                alt="stars icon"
+                width={150}
+                height={20}
+              />
               <span>4900+</span>
             </div>
           </div>
-          <div className={styles.rightSide}></div>
+          <div className={styles.rightSide}>
+            <div className={styles.heroImage}>
+              <Image
+                src={"/hero/1st.png"}
+                height={150}
+                width={300}
+                alt="top floating image"
+                className={`${styles.floatingImage} ${styles.topFloatingImage}`}
+              />
+              <Image
+                src={"/hero/Arrow.png"}
+                height={100}
+                width={80}
+                alt="top floating image"
+                className={`${styles.floatingImage} ${styles.topFloatingArrow}`}
+              />
+              <Image
+                src={"/hero/foodImage.png"}
+                alt="hero image"
+                width={400}
+                height={400}
+              />
+              <Image
+                src={"/hero/Graph.png"}
+                height={100}
+                width={250}
+                alt="top floating image"
+                className={`${styles.floatingImage} ${styles.bottomFloatingImage}`}
+              />
+            </div>
+          </div>
         </FlexWrapper>
       </MaxWidthWrapper>
     </section>
