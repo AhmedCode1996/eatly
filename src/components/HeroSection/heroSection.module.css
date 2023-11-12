@@ -1,6 +1,7 @@
 .wrapper {
-  padding-block: 4rem;
+  padding-block: 3rem;
 }
+
 .wrapper > div > div {
   gap: 2rem;
 }

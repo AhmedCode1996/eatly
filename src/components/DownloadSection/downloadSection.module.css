@@ -1,0 +1,61 @@
+.wrapper {
+}
+
+.wrapper > div > div {
+  justify-content: center;
+}
+
+.leftSide {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.rightSide {
+  position: relative;
+}
+
+.rightSide h2.title {
+  max-width: 80%;
+  color: #18181b;
+  font-family: var(--font-poppins);
+  font-size: 50.923px;
+  font-weight: 700;
+  line-height: 58.198px;
+  text-transform: capitalize;
+  margin-bottom: 48px;
+}
+
+h2.title .subTitle {
+  color: var(--primary-color);
+}
+
+.rightSide p {
+  max-width: 80%;
+  color: var(--text-color);
+  font-size: 20.335px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.rightSide button {
+  margin-top: 24px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px 30px;
+  text-transform: capitalize;
+  font-size: var(--h5);
+  border-radius: 24px;
+}
+
+.floatingArrowImage {
+  position: absolute;
+  right: 55%;
+  bottom: 0;
+}
+
+.FloatingIllustrationImage {
+  position: absolute;
+  top: 0;
+  right: 20%;
+}

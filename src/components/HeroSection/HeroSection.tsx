@@ -1,5 +1,5 @@
 import React from "react";
-import { FlexWrapper, MaxWidthWrapper } from "..";
+import { FlexWrapper, HeroBanner, MaxWidthWrapper } from "..";
 import styles from "./heroSection.module.css";
 import Link from "next/link";
 import Image from "next/image";
@@ -80,6 +80,7 @@ function HeroSection() {
           </div>
         </FlexWrapper>
       </MaxWidthWrapper>
+      <HeroBanner />
     </section>
   );
 }

@@ -1,0 +1,30 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  background-color: var(--primary-color);
+  padding: 48px;
+  margin-top: 6rem;
+}
+
+.item {
+  text-align: center;
+}
+
+.item h2 {
+  color: #fff;
+  font-size: 43.2px;
+  font-weight: 700;
+  line-height: 54px;
+  text-transform: uppercase;
+}
+.item p {
+  color: #c5bfed;
+  font-size: 14.4px;
+  font-weight: 500;
+  line-height: 21.6px;
+  max-width: 60%;
+  margin-inline: auto;
+}
