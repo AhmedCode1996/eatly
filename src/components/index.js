@@ -11,6 +11,8 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 import TopSection from "./TopSection";
 import RestaurantUI from "./RestaurantUI";
 import DishUI from "./DishUI";
+import PurchaseSection from "./PurchaseSection";
+import DiscountSection from "./DiscountSection";
 export {
   Logo,
   Header,
@@ -25,4 +27,6 @@ export {
   TopSection,
   RestaurantUI,
   DishUI,
+  PurchaseSection,
+  DiscountSection,
 };

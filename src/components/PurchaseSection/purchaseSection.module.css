@@ -1,0 +1,17 @@
+.wrapper {
+  padding-block: 5rem;
+}
+
+.wrapper .title {
+  max-width: 70%;
+  color: #18181b;
+  font-family: var(--font-poppins);
+  font-size: var(--h2);
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.title .subTitle {
+  color: var(--primary-color);
+}
