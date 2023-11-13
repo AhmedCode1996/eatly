@@ -2,8 +2,16 @@ import React from "react";
 
 import styles from "./restaurantUI.module.css";
 import Image from "next/image";
+import { RestaurantProps } from "@/types/types";
 
-function RestaurantUI({ id, title, image, rating, time, tag }) {
+function RestaurantUI({
+  id,
+  title,
+  image,
+  rating,
+  time,
+  tag,
+}: RestaurantProps) {
   let customTagStyle = "";
   if (tag === "healthy") {
     customTagStyle = styles.healthy;

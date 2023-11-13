@@ -2,8 +2,9 @@ import React from "react";
 import styles from "./dishUI.module.css";
 import Image from "next/image";
 import { priceFormat } from "@/lib/priceFormat";
+import { DishProps } from "@/types/types";
 
-function DishUI({ id, title, image, tag, price, time, rating }) {
+function DishUI({ id, title, image, tag, price, time, rating }: DishProps) {
   let customTagStyle = "";
   if (tag === "healthy") {
     customTagStyle = styles.healthy;
@@ -45,10 +46,10 @@ function DishUI({ id, title, image, tag, price, time, rating }) {
         <div className={styles.priceSection}>
           <p className={styles.price}>
             <span className={styles.mainPrice}>{`$${
-              priceFormat(price).integerPart
+              priceFormat(price ?? 0).integerPart
             }`}</span>
             <span className={styles.subPrice}>{`${
-              priceFormat(price).decimalPart
+              priceFormat(price ?? 0).decimalPart
             }`}</span>
           </p>
           <button className={styles.addButton}>

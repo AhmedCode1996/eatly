@@ -2,8 +2,9 @@ import React from "react";
 
 import styles from "./topSection.module.css";
 import { MaxWidthWrapper } from "..";
+import { TopSectionProps } from "@/types/types";
 
-function TopSection({ title, data, render }) {
+function TopSection({ title, data, render }: TopSectionProps) {
   const renderData = data?.map((item, index) => render(item, index));
   let customGridArea = "";
 

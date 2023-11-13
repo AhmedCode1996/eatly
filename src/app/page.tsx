@@ -7,7 +7,7 @@ import {
   RestaurantUI,
   PurchaseSection,
   DiscountSection,
-  Footer
+  Footer,
 } from "@/components";
 
 import styles from "./page.module.css";
