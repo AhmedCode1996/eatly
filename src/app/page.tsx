@@ -6,7 +6,8 @@ import {
   DishUI,
   RestaurantUI,
   PurchaseSection,
-  DiscountSection
+  DiscountSection,
+  Footer
 } from "@/components";
 
 import styles from "./page.module.css";
@@ -32,6 +33,7 @@ export default function Home() {
       />
       <PurchaseSection />
       <DiscountSection />
+      <Footer />
     </main>
   );
 }

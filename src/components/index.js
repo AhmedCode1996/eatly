@@ -13,6 +13,7 @@ import RestaurantUI from "./RestaurantUI";
 import DishUI from "./DishUI";
 import PurchaseSection from "./PurchaseSection";
 import DiscountSection from "./DiscountSection";
+import Footer from "./Footer";
 export {
   Logo,
   Header,
@@ -29,4 +30,5 @@ export {
   DishUI,
   PurchaseSection,
   DiscountSection,
+  Footer,
 };

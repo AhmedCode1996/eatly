@@ -10,7 +10,7 @@ function DiscountSection() {
       <div className={styles.wrapper}>
         <FlexWrapper>
           <div className={styles.leftSide}>
-            <h2 className={styles.title}>get50%</h2>
+            <h2 className={styles.title}>get 50%</h2>
             <form>
               <p className={styles.inputField}>
                 <input type="email" placeholder="enter your email address" />
