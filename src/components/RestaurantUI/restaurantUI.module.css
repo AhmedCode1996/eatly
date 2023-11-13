@@ -1,0 +1,67 @@
+.wrapper {
+  border-radius: 30.023px;
+  border: 1.251px solid #f4f4f6;
+  box-shadow: 5.94564px 71.34769px 35.67385px 0px rgba(229, 229, 229, 0.7);
+  overflow: hidden;
+}
+
+.wrapper .imageWrapper img {
+  width: 100%;
+}
+
+.wrapper .cardDescription {
+  padding: 12px;
+}
+
+.cardDescription .tag {
+  font-family: var(--font-poppins);
+  font-size: 12.776px;
+  font-weight: 400;
+  border-radius: 5.4px;
+  padding: 3px 8px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+  width: fit-content;
+}
+
+.healthy {
+  color: var(--yello-text-color);
+  background-color: var(--yello-bg-color);
+}
+.trending {
+  color: var(--red-text-color);
+  background-color: var(--red-bg-color);
+}
+.cardDescription .title {
+  color: var(--button-black-color);
+  font-family: var(--font-poppins);
+  font-size: var(--h4);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.cardDescription .details {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-manrope);
+  font-size: var(--h5);
+  font-weight: 400;
+  color: #8e97a6;
+}
+
+.details .time {
+  color: inherit;
+  font: inherit;
+}
+.details .rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: auto;
+  color: inherit;
+  font: inherit;
+}
+.details .bookmark {
+  cursor: pointer;
+}
