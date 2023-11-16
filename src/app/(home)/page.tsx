@@ -16,7 +16,6 @@ import { DISHES_DATA } from "@/data/dishesData";
 export default function Home() {
   return (
     <main>
-      {/* <Header /> */}
       <HeroSection />
       <DownloadSection />
       <TopSection
@@ -33,7 +32,6 @@ export default function Home() {
       />
       <PurchaseSection />
       <DiscountSection />
-      {/* <Footer /> */}
     </main>
   );
 }

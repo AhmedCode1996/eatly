@@ -7,16 +7,16 @@ function HeaderNav() {
     <nav className={styles.wrapper}>
       <ul>
         <li>
-          <Link href="#">menu</Link>
+          <Link href="/menu">menu</Link>
         </li>
         <li>
-          <Link href="#">blog</Link>
+          <Link href="/blog">blog</Link>
         </li>
         <li>
-          <Link href="#">pricing</Link>
+          <Link href="/pricing">pricing</Link>
         </li>
         <li>
-          <Link href="#">contact</Link>
+          <Link href="/contact">contact</Link>
         </li>
       </ul>
     </nav>
