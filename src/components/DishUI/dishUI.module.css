@@ -12,6 +12,9 @@
   top: 3%;
   right: 5%;
 }
+.floatingHeartIcon:hover svg path {
+  fill: var(--red-text-color);
+}
 
 .imageWrapper img {
   background-size: cover;

@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: calc(var(--border-radius) / 2);
+  border: 2px solid var(--primary-color);
+  overflow: hidden;
+}
+
+.wrapper > * {
+  flex: 1;
+  padding: 20px;
+  color: var(--primary-color);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  text-transform: capitalize;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active {
+  
+  background-color: var(--primary-color);
+  color: white;
+}

@@ -14,6 +14,12 @@ import DishUI from "./DishUI";
 import PurchaseSection from "./PurchaseSection";
 import DiscountSection from "./DiscountSection";
 import Footer from "./Footer";
+import MenuFilterSection from "./MenuFilterSection";
+
+import PriceSlider from "./PriceSlider/PriceSlider";
+import SliderUI from "./Slider/Slider";
+import MenuBannerTabs from "./MenuBannerTabs/MenuBannerTabs";
+
 export {
   Logo,
   Header,
@@ -31,4 +37,8 @@ export {
   PurchaseSection,
   DiscountSection,
   Footer,
+  SliderUI,
+  MenuFilterSection,
+  MenuBannerTabs,
+  PriceSlider,
 };

@@ -10,13 +10,13 @@ import {
   Footer,
 } from "@/components";
 
-import styles from "./page.module.css";
+// import styles from "./page.module.css";
 import { RESTAURANT_DATA } from "@/data/restaurantData";
 import { DISHES_DATA } from "@/data/dishesData";
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <Header />
+    <main>
+      {/* <Header /> */}
       <HeroSection />
       <DownloadSection />
       <TopSection
@@ -33,7 +33,7 @@ export default function Home() {
       />
       <PurchaseSection />
       <DiscountSection />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }
