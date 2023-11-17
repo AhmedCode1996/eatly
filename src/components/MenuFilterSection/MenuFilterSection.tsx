@@ -60,8 +60,8 @@ function MenuFilterSection() {
                   <Image
                     src={item.image}
                     alt={item.title}
-                    width={150}
-                    height={100}
+                    width={200}
+                    height={200}
                   />
                 </li>
               ))}

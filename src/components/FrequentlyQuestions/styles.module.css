@@ -1,0 +1,37 @@
+.heading {
+  position: relative;
+  width: fit-content;
+  margin-inline: auto;
+  padding: 3rem;
+}
+.heading h2 {
+  font-family: var(--font-poppins);
+  font-size: var(--h1);
+  font-weight: 600;
+  color: #323142;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.subHeading {
+  color: var(--primary-color);
+  display: block;
+}
+.floatingImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.title {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  color: #323142;
+  text-transform: capitalize;
+}
+
+.content {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  color: #686868;
+  letter-spacing: 0.2px;
+}

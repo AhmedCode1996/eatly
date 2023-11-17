@@ -19,6 +19,7 @@ import MenuFilterSection from "./MenuFilterSection";
 import PriceSlider from "./PriceSlider/PriceSlider";
 import SliderUI from "./Slider/Slider";
 import MenuBannerTabs from "./MenuBannerTabs/MenuBannerTabs";
+import FrequentlyQuestions from "./FrequentlyQuestions";
 
 export {
   Logo,
@@ -41,4 +42,5 @@ export {
   MenuFilterSection,
   MenuBannerTabs,
   PriceSlider,
+  FrequentlyQuestions,
 };

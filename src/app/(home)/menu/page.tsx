@@ -1,6 +1,7 @@
 import React from "react";
 import {
   DishUI,
+  FrequentlyQuestions,
   MaxWidthWrapper,
   MenuFilterSection,
   RestaurantUI,
@@ -28,6 +29,7 @@ const Page = () => {
           data={DISHES_DATA}
           render={(dish, index) => <DishUI key={index} {...dish} />}
         />
+        <FrequentlyQuestions />
       </MaxWidthWrapper>
     </div>
   );
