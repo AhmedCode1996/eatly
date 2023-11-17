@@ -5,6 +5,7 @@ import { FREQUENTLY_QUESTIONS } from "@/data/frequentlyQuestions";
 
 import styles from "./styles.module.css";
 import Image from "next/image";
+import { CollapseIcon } from "..";
 
 export default function FrequentlyQuestions() {
   const itemClasses = {
@@ -32,6 +33,7 @@ export default function FrequentlyQuestions() {
             key={question.id}
             aria-label={question.question}
             title={question.question}
+            indicator={<CollapseIcon />}
           >
             {question.answer}
           </AccordionItem>

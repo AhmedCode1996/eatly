@@ -3,6 +3,7 @@
   width: fit-content;
   margin-inline: auto;
   padding: 3rem;
+  margin-top: 2rem;
 }
 .heading h2 {
   font-family: var(--font-poppins);

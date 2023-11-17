@@ -21,6 +21,8 @@ import SliderUI from "./Slider/Slider";
 import MenuBannerTabs from "./MenuBannerTabs/MenuBannerTabs";
 import FrequentlyQuestions from "./FrequentlyQuestions";
 
+import CollapseIcon from "./CollapseIcon/CollapseIcon";
+
 export {
   Logo,
   Header,
@@ -43,4 +45,5 @@ export {
   MenuBannerTabs,
   PriceSlider,
   FrequentlyQuestions,
+  CollapseIcon,
 };
