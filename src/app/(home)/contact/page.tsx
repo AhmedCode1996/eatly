@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 
-import { FlexWrapper } from "@/components";
+import { ContactForm, FlexWrapper } from "@/components";
 import Image from "next/image";
 const Page = () => {
   return (
@@ -20,37 +20,7 @@ const Page = () => {
             customer
             <span> support</span>
           </h2>
-          <form>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              required
-            />
-            <textarea
-              name="message"
-              id="message"
-              placeholder="Message"
-              rows={7}
-              required
-            ></textarea>
-            <button type="submit">send now</button>
-            <Image
-              src={"/contact/Arrow.png"}
-              width={150}
-              height={150}
-              alt="floating arrow for send now button"
-              className={styles.arrow}
-            />
-          </form>
+          <ContactForm />
         </div>
       </FlexWrapper>
     </section>

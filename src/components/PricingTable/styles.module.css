@@ -1,0 +1,43 @@
+.tableHeader {
+  padding-block: 2rem;
+}
+.tableHeader h2 {
+  color: #282828;
+  font-size: var(--h3);
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.tableHeader h4 {
+  color: #6e757c;
+  font-size: var(--base-font);
+  font-weight: 500;
+}
+
+.pricing {
+  position: relative;
+  font-size: var(--h1);
+  color: #272e35;
+  font-weight: 600;
+  margin-block: 2rem;
+}
+
+.pricingSign {
+  font-size: var(--h4);
+  position: absolute;
+  top: -0.5rem;
+  left: -1rem;
+}
+.pricingMonth {
+  font-size: var(--h5);
+  color: #6e757c;
+  font-weight: 400;
+}
+.cellTitle {
+  color: #606060;
+  font-family: var(--font-poppins);
+  font-size: var(--base-font);
+  font-weight: 500;
+  text-transform: capitalize;
+}

@@ -22,6 +22,8 @@ import MenuBannerTabs from "./MenuBannerTabs/MenuBannerTabs";
 import FrequentlyQuestions from "./FrequentlyQuestions";
 
 import CollapseIcon from "./CollapseIcon/CollapseIcon";
+import ContactForm from "./ContactForm/ContactForm";
+import PricingTable from "./PricingTable/PricingTable";
 
 export {
   Logo,
@@ -46,4 +48,6 @@ export {
   PriceSlider,
   FrequentlyQuestions,
   CollapseIcon,
+  ContactForm,
+  PricingTable,
 };
