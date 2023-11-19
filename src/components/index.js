@@ -24,6 +24,8 @@ import FrequentlyQuestions from "./FrequentlyQuestions";
 import CollapseIcon from "./CollapseIcon/CollapseIcon";
 import ContactForm from "./ContactForm/ContactForm";
 import PricingTable from "./PricingTable/PricingTable";
+import BlogArticles from "./BlogArticles/BlogArticles";
+import BlogArticle from "./BlogArticle/BlogArticle";
 
 export {
   Logo,
@@ -50,4 +52,6 @@ export {
   CollapseIcon,
   ContactForm,
   PricingTable,
+  BlogArticles,
+  BlogArticle,
 };

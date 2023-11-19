@@ -1,0 +1,15 @@
+.title {
+  color: #323142;
+  font-size: var(--h1);
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
+.subTitle {
+  color: var(--primary-color);
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(270px, 100%), 1fr));
+  gap: 4rem;
+}
