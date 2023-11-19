@@ -41,3 +41,17 @@
   font-weight: 500;
   text-transform: capitalize;
 }
+
+.btn {
+  padding-block: 3rem;
+}
+
+.btn button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: var(--base-font);
+  font-weight: 500;
+  text-transform: uppercase;
+}

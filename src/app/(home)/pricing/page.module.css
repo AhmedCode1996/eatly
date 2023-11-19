@@ -1,0 +1,50 @@
+.wrapper > div > * + * {
+  margin-top: 30rem;
+}
+
+.heading {
+  background-color: var(--primary-color);
+  height: 350px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.headingTitle {
+  position: relative;
+  width: fit-content;
+  margin-inline: auto;
+}
+.headingTitle img {
+  position: absolute;
+  top: 2rem;
+  left: -6rem;
+}
+
+.heading .headingImage {
+  position: relative;
+  width: fit-content;
+  margin-inline: auto;
+}
+
+.headingImage .floatingArrow {
+  position: absolute;
+}
+
+.headingImage img:first-child {
+  top: 1rem;
+  right: 1rem;
+}
+.headingImage img:last-child {
+  bottom: 1rem;
+  left: 1rem;
+}
+.heading h2 {
+  color: #f9f9f9;
+  font-size: var(--h1);
+  font-weight: 600;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.heading img {
+  margin-inline: auto;
+}

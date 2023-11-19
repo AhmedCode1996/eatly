@@ -12,6 +12,6 @@
 .wrapper ul li a {
   color: var(--text-light-color);
   font-weight: 500;
-  font-size: 17.829px;
+  font-size: var(--h5);
   text-transform: capitalize;
 }

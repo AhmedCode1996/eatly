@@ -15,7 +15,7 @@ import styles from "./styles.module.css";
 export default function PricingTable() {
   return (
     <MaxWidthWrapper>
-      <Table removeWrapper aria-label="Pricing table">
+      <Table removeWrapper aria-label="Pricing table" isStriped isHeaderSticky>
         <TableHeader>
           <TableColumn>
             <p className={styles.tableHeader}>
@@ -79,6 +79,19 @@ export default function PricingTable() {
               );
             }) as any
           }
+          <TableRow>
+            <TableCell>{""}</TableCell>
+            <TableCell>
+              <div className={styles.btn}>
+                <button>start free</button>
+              </div>
+            </TableCell>
+            <TableCell>
+              <div className={styles.btn}>
+                <button>start pro</button>
+              </div>
+            </TableCell>
+          </TableRow>
         </TableBody>
       </Table>
     </MaxWidthWrapper>
