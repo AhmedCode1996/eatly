@@ -1,5 +1,4 @@
 import {
-  Header,
   HeroSection,
   DownloadSection,
   TopSection,
@@ -7,10 +6,8 @@ import {
   RestaurantUI,
   PurchaseSection,
   DiscountSection,
-  Footer,
 } from "@/components";
 
-// import styles from "./page.module.css";
 import { RESTAURANT_DATA } from "@/data/restaurantData";
 import { DISHES_DATA } from "@/data/dishesData";
 export default function Home() {
