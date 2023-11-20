@@ -33,13 +33,13 @@ function HeroSection() {
             </div>
             <div className={styles.reviews}>
               <Image
-                src={"/hero/trustpilot.png"}
+                src={"/Hero/trustpilot.png"}
                 alt="trustpilot icon"
                 width={150}
                 height={20}
               />
               <Image
-                src={"/hero/stars.png"}
+                src={"/Hero/stars.png"}
                 alt="stars icon"
                 width={150}
                 height={20}
@@ -50,27 +50,27 @@ function HeroSection() {
           <div className={styles.rightSide}>
             <div className={styles.heroImage}>
               <Image
-                src={"/hero/1st.png"}
+                src={"/Hero/1st.png"}
                 height={150}
                 width={300}
                 alt="top floating image"
                 className={`${styles.floatingImage} ${styles.topFloatingImage}`}
               />
               <Image
-                src={"/hero/Arrow.png"}
+                src={"/Hero/Arrow.png"}
                 height={100}
                 width={80}
                 alt="top floating image"
                 className={`${styles.floatingImage} ${styles.topFloatingArrow}`}
               />
               <Image
-                src={"/hero/FoodImage.png"}
+                src={"/Hero/FoodImage.png"}
                 alt="hero image"
                 width={400}
                 height={400}
               />
               <Image
-                src={"/hero/Graph.png"}
+                src={"/Hero/Graph.png"}
                 height={100}
                 width={250}
                 alt="top floating image"
