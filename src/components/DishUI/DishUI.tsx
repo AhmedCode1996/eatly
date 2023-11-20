@@ -1,11 +1,12 @@
 "use client";
 import React from "react";
-import styles from "./dishUI.module.css";
+import { useMotionValue, useSpring, useTransform, motion } from "framer-motion";
 import Image from "next/image";
+
+import styles from "./dishUI.module.css";
+
 import { priceFormat } from "@/lib/priceFormat";
 import { DishProps } from "@/types/types";
-import path from "path";
-import { useMotionValue, useSpring, useTransform, motion } from "framer-motion";
 
 function DishUI({ id, title, image, tag, price, time, rating }: DishProps) {
   let customTagStyle = "";
@@ -34,14 +35,12 @@ function DishUI({ id, title, image, tag, price, time, rating }: DishProps) {
     ["-17.5deg", "17.5deg"]
   );
 
-  const handleMouseMove = (e) => {
-    const rect = e.target.getBoundingClientRect();
+  const handleMouseMove = (e: React.MouseEvent) => {
+    const target = e.target as Element;
+    const { width, height, left, top } = target.getBoundingClientRect();
 
-    const width = rect.width;
-    const height = rect.height;
-
-    const mouseX = e.clientX - rect.left;
-    const mouseY = e.clientY - rect.top;
+    const mouseX = e.clientX - left;
+    const mouseY = e.clientY - top;
 
     const xPct = mouseX / width - 0.5;
     const yPct = mouseY / height - 0.5;
