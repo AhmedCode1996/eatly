@@ -9,7 +9,7 @@ function Logo() {
     <Link href="/" className={styles.wrapper}>
       <Image
         className={styles.logoImage}
-        src={"/logo.png"}
+        src={"/Logo.png"}
         alt="logo"
         width={45}
         height={42}

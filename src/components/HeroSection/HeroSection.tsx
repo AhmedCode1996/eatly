@@ -64,7 +64,7 @@ function HeroSection() {
                 className={`${styles.floatingImage} ${styles.topFloatingArrow}`}
               />
               <Image
-                src={"/hero/foodImage.png"}
+                src={"/hero/FoodImage.png"}
                 alt="hero image"
                 width={400}
                 height={400}

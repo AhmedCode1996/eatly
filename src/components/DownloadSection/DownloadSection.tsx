@@ -10,7 +10,7 @@ function DownloadSection() {
         <FlexWrapper>
           <div className={styles.leftSide}>
             <Image
-              src={"/download/Illustration.png"}
+              src={"/download/illustration.png"}
               alt="floating illustration image"
               width={50}
               height={50}

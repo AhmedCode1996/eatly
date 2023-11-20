@@ -30,7 +30,7 @@ function RestaurantUI({
         <div className={styles.details}>
           <span className={styles.time}>{`${time}min`}</span>
           <p className={styles.rating}>
-            <Image src={"/star.png"} alt="star icon" width={20} height={20} />
+            <Image src={"/Star.png"} alt="star icon" width={20} height={20} />
             <span>{rating}</span>
           </p>
           <Image
