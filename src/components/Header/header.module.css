@@ -1,7 +1,16 @@
 .wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
   padding: 8px;
   margin-bottom: 40px;
+}
+
+@media (max-width: 51rem) {
+  .wrapper {
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+    gap: 1.5rem;
+  }
 }

@@ -13,7 +13,6 @@
   font-family: var(--font-poppins);
   font-size: 4rem;
   font-weight: 600;
-  line-height: 120%;
   letter-spacing: -1px;
   text-transform: capitalize;
 }
@@ -42,11 +41,11 @@ p.description .subDescription {
 .baseAction {
   display: block;
   font-family: var(--font-poppins);
-  font-size: var(--base-size);
+  font-size: var(--h5);
   font-weight: 500;
   letter-spacing: 0.163px;
   text-transform: capitalize;
-  border-radius: 12.412px;
+  border-radius: 1rem;
   padding: 18px 30px;
 }
 .actions a.getStarted {
@@ -75,11 +74,12 @@ p.description .subDescription {
 .rightSide {
   display: flex;
   justify-content: center;
+  min-width: 500px;
 }
 
 .rightSide .heroImage {
-  width: 400px;
-  height: 400px;
+  width: 25rem;
+  height: 25rem;
   background-color: var(--primary-color);
   display: flex;
   align-items: center;
@@ -108,4 +108,32 @@ p.description .subDescription {
 
 .heroImage img {
   transform: translate(-5%, 5%);
+}
+
+@media (max-width: 60.5rem) {
+  .wrapper > div > div {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .leftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftSide h1.title {
+    max-width: 65%;
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .leftSide h1.title {
+    font-size: 3rem;
+  }
+
+  .heroImage .bottomFloatingImage {
+    display: none;
+  }
 }
