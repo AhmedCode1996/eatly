@@ -15,3 +15,10 @@
 .title .subTitle {
   color: var(--primary-color);
 }
+
+@media (max-width: 47rem) {
+  .wrapper > div > div {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
