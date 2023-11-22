@@ -54,6 +54,7 @@ function HeroSection() {
                 height={150}
                 width={300}
                 alt="top floating image"
+                priority
                 className={`${styles.floatingImage} ${styles.topFloatingImage}`}
               />
               <Image
