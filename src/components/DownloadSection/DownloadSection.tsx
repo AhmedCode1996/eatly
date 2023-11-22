@@ -9,19 +9,21 @@ function DownloadSection() {
       <MaxWidthWrapper>
         <FlexWrapper>
           <div className={styles.leftSide}>
-            <Image
-              src={"/download/illustration.png"}
-              alt="floating illustration image"
-              width={50}
-              height={50}
-              className={styles.FloatingIllustrationImage}
-            />
-            <Image
-              src={"/download/MobileScreen.png"}
-              alt="mobile screen image"
-              width={250}
-              height={500}
-            />
+            <div className={styles.imageWrapper}>
+              <Image
+                src={"/download/illustration.png"}
+                alt="floating illustration image"
+                width={50}
+                height={50}
+                className={styles.FloatingIllustrationImage}
+              />
+              <Image
+                src={"/download/MobileScreen.png"}
+                alt="mobile screen image"
+                width={250}
+                height={500}
+              />
+            </div>
           </div>
           <div className={styles.rightSide}>
             <h2 className={styles.title}>
@@ -36,14 +38,16 @@ function DownloadSection() {
               These foods promote overall wellness by support healthy digestion
               and boosting immunity
             </p>
-            <button>download</button>
-            <Image
-              src={"/download/Vector14.png"}
-              width={100}
-              height={100}
-              alt="arrow image"
-              className={styles.floatingArrowImage}
-            />
+            <div className={styles.buttonWrapper}>
+              <button>download</button>
+              <Image
+                src={"/download/Vector14.png"}
+                width={100}
+                height={100}
+                alt="arrow image"
+                className={styles.floatingArrowImage}
+              />
+            </div>
           </div>
         </FlexWrapper>
       </MaxWidthWrapper>

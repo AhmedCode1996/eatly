@@ -137,3 +137,8 @@ p.description .subDescription {
     display: none;
   }
 }
+@media (max-width: 31.25rem) {
+  .heroImage :is(.topFloatingImage, .topFloatingArrow) {
+    display: none;
+  }
+}

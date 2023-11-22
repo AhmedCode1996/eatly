@@ -4,6 +4,10 @@
 .wrapper > div > div {
   justify-content: center;
 }
+.wrapper > div > div > * {
+  flex: 1;
+  flex-grow: 1;
+}
 
 .leftSide {
   display: flex;
@@ -11,10 +15,15 @@
   position: relative;
 }
 
-.rightSide {
+.leftSide .imageWrapper {
   position: relative;
 }
 
+.FloatingIllustrationImage {
+  position: absolute;
+  top: 0;
+  right: -25%;
+}
 .rightSide h2.title {
   max-width: 80%;
   color: #18181b;
@@ -38,6 +47,11 @@ h2.title .subTitle {
   margin-bottom: 24px;
 }
 
+.rightSide .buttonWrapper {
+  position: relative;
+  width: fit-content;
+}
+
 .rightSide button {
   margin-top: 24px;
   background-color: var(--primary-color);
@@ -50,12 +64,24 @@ h2.title .subTitle {
 
 .floatingArrowImage {
   position: absolute;
-  right: 55%;
+  right: -80%;
   bottom: 0;
 }
 
-.FloatingIllustrationImage {
-  position: absolute;
-  top: 0;
-  right: 20%;
+@media (max-width: 53.75rem) {
+  .wrapper > div > div {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rightSide h2.title {
+    max-width: 60%;
+  }
 }

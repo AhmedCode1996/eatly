@@ -28,3 +28,9 @@
   max-width: 60%;
   margin-inline: auto;
 }
+
+@media (max-width: 37.5rem) {
+  .wrapper {
+    flex-direction: column;
+  }
+}

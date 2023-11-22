@@ -1,5 +1,6 @@
 .wrapper {
   --spacing: 2.5rem;
+  width: 100%;
   background-color: var(--footer-bg-color);
   padding-block: 3rem;
   margin-top: 5rem;
