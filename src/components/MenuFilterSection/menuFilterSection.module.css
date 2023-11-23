@@ -102,3 +102,12 @@
   cursor: pointer;
   text-transform: capitalize;
 }
+
+@media (max-width: 50rem) {
+  .wrapper > div {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding-inline: 3rem;
+  }
+}
