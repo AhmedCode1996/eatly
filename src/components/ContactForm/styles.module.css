@@ -24,18 +24,28 @@ form.wrapper :is(input, textarea)::placeholder {
   text-transform: capitalize;
 }
 
+form.wrapper .btnWrapper {
+  position: relative;
+  width: fit-content;
+}
 form.wrapper button {
   background-color: var(--primary-color);
   color: white;
   font-size: var(--h5);
   padding: 1rem;
-  width: var(--width);
   border-radius: 15px;
   text-transform: capitalize;
 }
 
 .arrow {
   position: absolute;
-  bottom: -10%;
-  left: 5%;
+  bottom: -2rem;
+  left: -7rem;
+}
+
+@media (max-width: 43.75rem) {
+  form.wrapper {
+    --width: 100%;
+    text-align: center;
+  }
 }

@@ -40,14 +40,16 @@ function ContactForm() {
         rows={7}
         required
       ></textarea>
-      <button type="submit">send now</button>
-      <Image
-        src={"/contact/Arrow.png"}
-        width={150}
-        height={150}
-        alt="floating arrow for send now button"
-        className={styles.arrow}
-      />
+      <div className={styles.btnWrapper}>
+        <button type="submit">send now</button>
+        <Image
+          src={"/contact/Arrow.png"}
+          width={150}
+          height={150}
+          alt="floating arrow for send now button"
+          className={styles.arrow}
+        />
+      </div>
     </form>
   );
 }

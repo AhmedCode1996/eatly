@@ -38,7 +38,8 @@
 }
 
 .rightSide h2 {
-  text-align: center;
+  text-align: right;
+  padding-right: 2rem;
   margin-bottom: 2rem;
   font-size: var(--h2);
   font-weight: 700;
@@ -48,4 +49,38 @@
 
 .rightSide h2 span {
   color: var(--primary-color);
+}
+
+@media (max-width: 56.5rem) {
+  .rightSide h2 {
+    font-size: var(--h4);
+  }
+}
+
+@media (max-width: 43.75rem) {
+  .wrapper > div {
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  .wrapper > div > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .wrapper > div > div:last-child {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .leftSide {
+    border-radius: 20px;
+  }
+
+  .rightSide h2 {
+    text-align: center;
+  }
 }
