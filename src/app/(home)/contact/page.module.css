@@ -26,6 +26,11 @@
   gap: 2rem;
 }
 
+.leftSide img {
+  width: auto;
+  height: auto;
+}
+
 .leftSide h2 {
   color: #f9f9f9;
   font-weight: 600;

@@ -14,6 +14,8 @@
   margin-inline: auto;
 }
 .headingTitle img {
+  width: auto;
+  height: auto;
   position: absolute;
   top: 2rem;
   left: -6rem;
@@ -23,6 +25,11 @@
   position: relative;
   width: fit-content;
   margin-inline: auto;
+}
+
+.heading .headingImage img {
+  width: auto;
+  height: auto;
 }
 
 .headingImage .floatingArrow {

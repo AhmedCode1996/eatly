@@ -36,6 +36,11 @@
   font: inherit;
 }
 
+.bannerRightSide img {
+  width: auto;
+  height: auto;
+}
+
 .banner .bannerTitle {
   color: white;
 }
@@ -84,6 +89,11 @@
 
 .categoriesContainer li {
   cursor: pointer;
+}
+
+.categoriesContainer li img {
+  width: auto;
+  height: auto;
 }
 
 .rightSide .price h2 {

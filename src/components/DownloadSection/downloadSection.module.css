@@ -1,4 +1,6 @@
-.wrapper {
+.wrapper img {
+  width: auto;
+  height: auto;
 }
 
 .wrapper > div > div {
@@ -64,7 +66,7 @@ h2.title .subTitle {
 
 .floatingArrowImage {
   position: absolute;
-  right: -80%;
+  right: -90%;
   bottom: 0;
 }
 

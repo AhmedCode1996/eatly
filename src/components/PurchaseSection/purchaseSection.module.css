@@ -2,6 +2,10 @@
   padding-block: 5rem;
 }
 
+.wrapper img {
+  height: auto;
+  width: auto;
+}
 .wrapper .title {
   max-width: 70%;
   color: #18181b;

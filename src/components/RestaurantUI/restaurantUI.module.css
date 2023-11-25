@@ -62,6 +62,13 @@
   color: inherit;
   font: inherit;
 }
+
+.rating img {
+  width: auto;
+  height: auto;
+}
 .details .bookmark {
   cursor: pointer;
+  width: auto;
+  height: auto;
 }

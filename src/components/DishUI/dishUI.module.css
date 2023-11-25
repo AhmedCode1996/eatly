@@ -79,6 +79,11 @@
   font: inherit;
 }
 
+.rating img {
+  width: auto;
+  height: auto;
+}
+
 .cardDescription .priceSection {
   display: flex;
   align-items: center;
@@ -99,4 +104,9 @@
 
 .priceSection .addButton {
   cursor: pointer;
+}
+
+.addButton img {
+  width: auto;
+  height: auto;
 }

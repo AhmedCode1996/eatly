@@ -31,6 +31,7 @@ const Page = () => {
               width={880}
               height={630}
               alt="main pricing image"
+              priority
             />
             <Image
               src={"/pricing/02.png"}

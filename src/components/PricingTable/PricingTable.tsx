@@ -19,20 +19,20 @@ export default function PricingTable() {
         <TableHeader>
           <TableColumn>
             <p className={styles.tableHeader}>
-              <h2>pricing</h2>
-              <h4>Affordable Basic& Pro Plans</h4>
+              <span>pricing</span>
+              <span>Affordable Basic& Pro Plans</span>
             </p>
           </TableColumn>
           <TableColumn>
             <p className={styles.tableHeader}>
-              <h2>basic</h2>
-              <h4>completely free</h4>
+              <span>basic</span>
+              <span>completely free</span>
             </p>
           </TableColumn>
           <TableColumn>
             <p className={styles.tableHeader}>
-              <h2>premium</h2>
-              <h4>amazing premium features</h4>
+              <span>premium</span>
+              <span>amazing premium features</span>
             </p>
           </TableColumn>
         </TableHeader>

@@ -25,6 +25,7 @@ function DiscountSection() {
               height={275}
               alt="floating food image"
               className={styles.floatingFoodImage}
+              priority
             />
           </div>
         </FlexWrapper>

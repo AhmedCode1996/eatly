@@ -63,6 +63,11 @@ p.description .subDescription {
   align-items: center;
   gap: 8px;
 }
+
+.reviews img {
+  width: auto;
+  height: auto;
+}
 .reviews span {
   color: #334155;
   font-size: 16px;
@@ -86,6 +91,10 @@ p.description .subDescription {
   justify-content: center;
   border-radius: 50%;
   position: relative;
+}
+.heroImage img {
+  width: auto;
+  height: auto;
 }
 
 .heroImage .floatingImage {

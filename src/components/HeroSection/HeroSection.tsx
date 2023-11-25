@@ -67,9 +67,8 @@ function HeroSection() {
               <Image
                 src={"/Hero/FoodImage.png"}
                 alt="hero image"
-                // width={400}
-                // height={400}
-                layout="fill"
+                width={400}
+                height={400}
               />
               <Image
                 src={"/Hero/Graph.png"}
