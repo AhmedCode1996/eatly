@@ -1,23 +1,8 @@
-import type { Metadata } from "next";
-import { Inter, Manrope, Poppins } from "next/font/google";
-import "./globals.css";
+import { inter, manrope, poppin } from "@/config/fonts";
 import { Providers } from "./providers";
+import "./globals.css";
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-inter",
-});
-const poppin = Poppins({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-poppins",
-});
-const manrope = Manrope({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-manrope",
-});
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Eatly",

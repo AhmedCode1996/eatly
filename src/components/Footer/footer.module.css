@@ -48,3 +48,10 @@
   align-items: center;
   gap: 25px;
 }
+
+@media (max-width: 34.375rem) {
+  .wrapper > div > div {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
