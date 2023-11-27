@@ -1,0 +1,7 @@
+.buttonPrimary {
+  background-color: var(--primary-color);
+}
+
+.buttonPrimary:hover {
+  background-color: #6c5fbced;
+}

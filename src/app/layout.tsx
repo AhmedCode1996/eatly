@@ -1,5 +1,6 @@
 import { inter, manrope, poppin } from "@/config/fonts";
 import { Providers } from "./providers";
+import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 
 import type { Metadata } from "next";
@@ -18,12 +19,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="light">
-      <body
-        className={`${inter.variable} ${poppin.variable} ${manrope.variable}`}
-      >
-        <Providers>{children}</Providers>
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en" className="light">
+        <body
+          className={`${inter.variable} ${poppin.variable} ${manrope.variable}`}
+        >
+          <Providers>{children}</Providers>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }

@@ -1,14 +1,14 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  min-height: 100dvh;
+  height: 100dvh;
 }
 
 .wrapper .authContent {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .authContent .authFooter {
